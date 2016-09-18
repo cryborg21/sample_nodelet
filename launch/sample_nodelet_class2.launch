@@ -1,0 +1,10 @@
+<launch>
+	<!-- $ rosrun nodelet nodelet manager __name:=sample_nodelet_manager -->
+	<node pkg="nodelet" type="nodelet" args="manager"
+    name="sample_nodelet_manager" output="screen" />
+
+	<!-- $ rosrun nodelet nodelet load sample_nodelet/SampleNodeletClass2 sample_nodelet_manager __name:=SampleNodeletClass2_loader-->
+	<node pkg="nodelet" type="nodelet" args="load sample_nodelet/SampleNodeletClass2 sample_nodelet_manager"
+    name="SampleNodeletClass2_loader" output="screen">
+	</node>
+</launch>

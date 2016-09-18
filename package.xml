@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>sample_nodelet</name>
+  <version>0.1.0</version>
+  <description>Simple example of ROS nodelet</description>
+
+  <maintainer email="cryborg21@gmail.com">cryborg21</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">https://github.com/cryborg21/sample_nodelet</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>nodelet</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>nodelet</run_depend>
+
+  <export>
+    <nodelet plugin="${prefix}/sample_nodelet.xml" />
+  </export>
+</package>
