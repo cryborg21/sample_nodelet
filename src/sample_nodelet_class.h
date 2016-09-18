@@ -13,15 +13,8 @@ namespace sample_nodelet_ns
 class SampleNodeletClass : public nodelet::Nodelet
 {
 public:
-    SampleNodeletClass()
-    {
-    	ROS_INFO("SampleNodeletClass Constructor");
-    }
-
-    ~SampleNodeletClass()
-    {
-    	ROS_INFO("SampleNodeletClass Destructor");
-    }
+    SampleNodeletClass();
+    ~SampleNodeletClass();
 
     virtual void onInit();
 };
