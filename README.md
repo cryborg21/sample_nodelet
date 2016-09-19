@@ -21,13 +21,7 @@ Simple example of ROS nodelet.
 
 ## Requirements
 
-* Ubuntu 16.04
-  * ROS Kinetic Kame
-* Ubuntu 15.04
-  * ROS Jade Turtle
-  * ROS Indigo Igloo
-* Ubuntu 14.04
-  * ROS Indigo Igloo
+* ROS Kinetic Kame / Jade Turtle / ROS Indigo Igloo
 
 ## Usage without .launch files
 
